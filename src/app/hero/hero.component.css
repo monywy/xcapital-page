@@ -1,0 +1,103 @@
+/* Estilos para la sección hero */
+.hero {
+    background: linear-gradient(to right, #ffffff 50%, #00c853 50%);
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.hero h1 span {
+    color: #00c853;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.hero .btn {
+    margin-right: 10px;
+}
+
+.hero .btn-outline-secondary {
+    border: 2px solid #999;
+    color: #333;
+}
+
+.hero .btn-outline-secondary:hover {
+    background: #999;
+    color: #fff;
+}
+
+.hero .social-icons {
+    margin-top: 20px;
+}
+
+.hero .social-icons a {
+    display: inline-block;
+    color: #333;
+    margin-right: 10px;
+}
+
+.hero .social-icons a i {
+    margin-right: 5px;
+    color: #00c853;
+}
+
+.hero .hero-image {
+    position: relative;
+    z-index: 1;
+}
+
+/* Círculo y Rombos Verdes */
+.circle {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 100px;
+    height: 100px;
+    background-color: #00c853;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.hero .diamonds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.hero .diamond {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #00c853;
+    transform: rotate(45deg);
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .hero {
+        text-align: center;
+    }
+
+    .hero .col-lg-6 {
+        margin-bottom: 20px;
+    }
+
+    .hero .hero-image {
+        margin-top: 20px;
+    }
+}

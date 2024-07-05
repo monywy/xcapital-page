@@ -1,0 +1,25 @@
+.product {
+    background-color: #f8f9fa;
+  }
+  
+  .product h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .product p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .product .list-unstyled li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .product .btn-success {
+    background-color: #28a745;
+    border: none;
+  }
+  
